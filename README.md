@@ -74,3 +74,11 @@ This portfolio is not built from scratch. It stands on the rich base of:
 
 Thus, this project synthesizes the APS course content into a cohesive set of practical solutions inspired by Google’s real-time challenges.
 
+## Business Cases
+
+- [Search Algorithms](business-cases/b1.md)
+- [Ads Recommendation](business-cases/b2.md)
+- [Maps & Routing](business-cases/b3.md)
+- [Email & Spam Detection](business-cases/b4.md)
+- [User Analytics](business-cases/b5.md)
+
