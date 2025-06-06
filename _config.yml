@@ -1,3 +1,22 @@
-title: APS-Portfolio
-description: A description of your portfolio or the purpose of your site.
-theme: jekyll-theme-cayman
+title: "APS-PORTFOLIO"
+description: "A professional portfolio showcasing skills in NLP, Generative AI, and Data Structures & Algorithms"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-include-cache
+
+# Author Info
+author:
+  name: "Bhumika"
+  avatar: "/assets/images/avatar.png"
+  bio: "6th Sem Student | KLE Technological University"
+  location: "India"
+
+# Social (optional)
+social:
+  github: your-github
+  linkedin: your-linkedin
+  email: your-email@example.com
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
