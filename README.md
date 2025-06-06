@@ -1,9 +1,3 @@
----
-layout: page
-title: "Google-Inspired Algorithmic Portfolio"
-permalink: /google-portfolio/
----
-
 # APS-Portfolio
 
 _A stride towards enhanced Google service management._
