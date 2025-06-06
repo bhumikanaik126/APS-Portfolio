@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Google-Inspired Algorithmic Portfolio"
+permalink: /google-portfolio/
+---
+
 # APS-Portfolio
 
 _A stride towards enhanced Google service management._
@@ -21,45 +27,59 @@ This portfolio explores how algorithmic problem solving strengthens the scalabil
 
 ---
 
-### 📌 Explore the Portfolio
+## 🔰 **1. Introduction**
 
-> 🔗 Click each link below to navigate to the respective section.
+### 🧭 1.1 Why Google?
 
-- [🌱 Introduction - Domain Intro](#introduction---domain-intro)
-- [🎯 Objectives - Goals and Targets](#objectives---goals-and-targets)
-- [📈 Business Use Cases ➡️ Algorithmic Solutions](#business-use-cases--algorithmic-solutions)
-- [📊 Use Case Insights and Efficiency Metrics](#use-case-insights-and-efficiency-metrics)
-- [🧠 Key Learnings and Insights](#key-learnings-and-insights)
+> **"Solving at scale. Optimizing for billions. Innovating every millisecond."**
+
+Google, as a technology leader, builds products that touch **billions of users**—from **search** to **ads**, **videos**, **maps**, and more. At the heart of these products lies a deep reliance on **data structures**, **algorithms**, and **system design**. These are not just theoretical concepts, but live tools that power:
+
+* Instant search result rankings,  
+* Personalized content recommendations,  
+* Efficient route planning,  
+* Ad relevance matching,  
+* Spam detection, and more.
+
+Choosing **Google** as the domain for this portfolio allows me to explore **real-world business cases** where problem-solving at scale is essential. It offers a diverse and challenging landscape to apply:
+
+* **Dynamic Programming**,  
+* **Graph Algorithms**,  
+* **Search Techniques**,  
+* **Combinatorics and Number Theory**,  
+* And **Advanced Data Structures** (like Segment Trees, Tries, Fenwick Trees, and Persistent Trees).
+
+> “This portfolio is my attempt to walk in the footsteps of Google’s engineering mindset—where theory meets action, and efficiency meets experience.”
 
 ---
 
-## 🌱 Introduction – Domain Intro
+### 🎯 1.2 Goals of This Portfolio
 
-Google’s large-scale systems solve billions of queries daily. This section introduces the domain and why algorithms are foundational to Google’s infrastructure and user experience.
+This portfolio aims to:
 
-## 🎯 Objectives – Goals and Targets
+* ✅ **Bridge theory and practice** by implementing well-known algorithms to solve real-world problems inspired by Google.  
+* ✅ **Model business cases** around search, ads, recommendations, email management, routing, and user analytics.  
+* ✅ **Apply a wide range of algorithms** (from recursion to greedy, DP to graph traversal, segment trees to MO’s algorithm).  
+* ✅ **Analyze time/space trade-offs**, use appropriate data structures, and optimize for edge cases.  
+* ✅ **Design systems** that are modular, scalable, and reflective of how Google builds software.  
+* ✅ **Visualize problems** with diagrams, flowcharts, and interactive tools.  
+* ✅ **Experiment** with algorithms across data sizes to simulate large-scale systems (Google-scale).
 
-- Understand the link between business needs and algorithms  
-- Analyze how DSA powers search, personalization, and routing  
-- Evaluate the efficiency of algorithmic choices used in real systems
+---
 
-## 📈 Business Use Cases ➡️ Algorithmic Solutions
+### 🔗 Connection to APS Course
 
-| Service        | Problem Solved                    | Algorithm Used              |
-|----------------|-----------------------------------|-----------------------------|
-| Google Search  | Ranking web pages                 | PageRank, Greedy, Graph     |
-| YouTube        | Personalized recommendations      | Clustering, Filtering       |
-| Google Maps    | Real-time navigation              | Dijkstra, A*, Heuristics    |
-| Google Ads     | Bid optimization                  | Greedy, Dynamic Programming |
+This portfolio is not built from scratch. It stands on the rich base of:
 
-## 📊 Use Case Insights and Efficiency Metrics
+* Concepts from **Dynamic Programming** (Knapsack, LCS, Subset Sum, Coin Combinations)  
+* **Search strategies** (BFS, DFS, A\*, Heuristics)  
+* **Combinatorics and Number Theory** (Catalan Numbers, Fermat’s Theorem, MMI)  
+* **Range Query Algorithms** (Segment Trees, Fenwick Tree, MO’s Algorithm)  
+* **Stable Marriage**, **Johnson-Trotter**, and **Borůvka’s Algorithm**  
+* System design thinking from projects like the **pincode application**
 
-- Measured in terms of **latency**, **accuracy**, and **scalability**
-- Example: A* in Maps optimizes for real-time traffic with minimal delay  
-- Time-space trade-offs in large graph processing (e.g., for route planning)
+Thus, this project synthesizes the APS course content into a cohesive set of practical solutions inspired by Google’s real-time challenges.
 
-## 🧠 Key Learnings and Insights
+---
 
-- How algorithms support business goals  
-- Designing for real-time user responsiveness  
-- Key DSA lessons in abstraction, performance tuning, and decision-making
+Would you like me to move on to structuring the **first business case (Search Ranking System)** or would you prefer a visual diagram showing how all cases are connected to Google products first?
