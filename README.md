@@ -74,6 +74,3 @@ This portfolio is not built from scratch. It stands on the rich base of:
 
 Thus, this project synthesizes the APS course content into a cohesive set of practical solutions inspired by Google’s real-time challenges.
 
----
-
-Would you like me to move on to structuring the **first business case (Search Ranking System)** or would you prefer a visual diagram showing how all cases are connected to Google products first?
