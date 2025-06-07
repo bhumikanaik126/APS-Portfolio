@@ -78,7 +78,7 @@ Thus, this project synthesizes the APS course content into a cohesive set of pra
 
 - [Relevance Ranking using Longest Common Subsequence](business-cases/b1.md)
 - [Semantic Expansion using A* Search on Concept Graphs](business-cases/b2.md)
-- [Maps & Routing](business-cases/b3.md)
+- [Autocomplete using Trie for Instant Query Suggestions](business-cases/b3.md)
 - [Email & Spam Detection](business-cases/b4.md)
 - [User Analytics](business-cases/b5.md)
 
