@@ -80,5 +80,7 @@ Thus, this project synthesizes the APS course content into a cohesive set of pra
 - [Semantic Expansion using A* Search on Concept Graphs](business-cases/b2.md)
 - [Autocomplete using Trie for Instant Query Suggestions](business-cases/b3.md)
 - [Stable Marriage Problem – Matching Ads with User Groups](business-cases/b4.md)
-- [User Analytics](business-cases/b5.md)
+- - [Budget-Constrained Ad Selection using Greedy + Dynamic Programming (Knapsack)](business-cases/b4.md)
+- - [Real-Time Bidding (RTB) Using Priority Queues + Auctions](business-cases/b4.md)
+- [Real-Time Click Stats & Impression Tracking using Fenwick Tree](business-cases/b7.md)
 
