@@ -84,4 +84,5 @@ Thus, this project synthesizes the APS course content into a cohesive set of pra
 - [Real-Time Bidding (RTB) Using Priority Queues + Auctions](business-cases/b4.md)
 - [Real-Time Click Stats & Impression Tracking using Fenwick Tree](business-cases/b7.md)
 - [A* Algorithm — Heuristic-Based Fastest Path](business-cases/b8.md)
+- [Uniform Cost Search — Guaranteed Shortest Path Without Heuristics for Google’s Routing and Logistics](business-cases/b9.md)
 
