@@ -3,24 +3,46 @@
 #include <string>
 using namespace std;
 
-// Function to compute LCS length
-int LCS(string a, string b) {
-    int m = a.length(), n = b.length();
-    vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
+int main() {
+    string string1 = "AGGTAB";
+    string string2 = "GXTXAYB";
+    int m = string1.size();
+    int n = string2.size();
 
-    // Build the LCS table
-    for (int i = 1; i <= m; i++) {
-        for (int j = 1; j <= n; j++) {
-            if (a[i - 1] == b[j - 1])
-                dp[i][j] = 1 + dp[i - 1][j - 1];
-            else
-                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
+    // Create DP table
+    vector<vector<int>> A(m + 1, vector<int>(n + 1, 0));
+
+    // Build the memo table in bottom-up manner
+    for (int i = 0; i <= m; i++) {
+        for (int j = 0; j <= n; j++) {
+            if (i == 0 || j == 0) {
+                A[i][j] = 0;
+            } else if (string1[i - 1] == string2[j - 1]) {
+                A[i][j] = A[i - 1][j - 1] + 1;
+            } else {
+                A[i][j] = max(A[i - 1][j], A[i][j - 1]);
+            }
         }
     }
 
-    return dp[m][n];
-}
-double computeSimilarity(string query, string title) {
-    int lcsLen = LCS(query, title);
-    return (double)lcsLen / query.length(); // Can also use avg length
+    // Reconstruct the LCS string from the DP table
+    int i = m, j = n;
+    string finalString = "";
+    while (i > 0 && j > 0) {
+        if (string1[i - 1] == string2[j - 1]) {
+            finalString = string1[i - 1] + finalString;
+            i--;
+            j--;
+        } else if (A[i - 1][j] > A[i][j - 1]) {
+            i--;
+        } else {
+            j--;
+        }
+    }
+
+    // Output the results
+    cout << "Longest Common Subsequence Length is " << A[m][n] << endl;
+    cout << "Longest Common Subsequence is " << finalString << endl;
+
+    return 0;
 }
