@@ -94,5 +94,15 @@ Thus, this project synthesizes the APS course content into a cohesive set of pra
 - [Bitmask Dynamic Programming (DP) for Google Search and Ads Personalization](business-cases/b17.md)
 - [Permutation of Top-N Google Recommendations using Johnson–Trotter](business-cases/b18.md)
 - [Real-Time Path Optimization Using Dijkstra’s Algorithm in Google Platforms](business-cases/b19.md)
+- [KD Trees — Efficient Spatial Search for Maps & Nearby Places](business-cases/b20.md)
+- [Ford-Fulkerson Algorithm — Optimizing Ad Bandwidth Allocation in Google Ads](business-cases/b21.md)
+- [Boruvka’s MST — Optimizing Network Cable Design for Google Data Centers](business-cases/b22.md)
+- [Min-Cut Max-Flow — Optimizing Google Cloud Load Distribution](business-cases/b23.md)
+- [Bellman-Ford Algorithm — Reliable Shortest Path Calculation for Google Maps & Network Routing](business-cases/b24.md)
+- [Types of Data Distributions & Their Use Cases at Google](business-cases/b25.md)
+- [Fermat’s Little Theorem — Efficient Modular Arithmetic for Google Services](business-cases/b26.md)
+- [Segment Trees — Efficient Range Query and Update for Google Services](business-cases/b27.md)
+- [Priority Hop Counts — Optimizing Network Routing for Google’s Infrastructure](business-cases/b28.md)
+
   
 
