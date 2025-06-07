@@ -85,4 +85,14 @@ Thus, this project synthesizes the APS course content into a cohesive set of pra
 - [Real-Time Click Stats & Impression Tracking using Fenwick Tree](business-cases/b7.md)
 - [A* Algorithm — Heuristic-Based Fastest Path](business-cases/b8.md)
 - [Uniform Cost Search — Guaranteed Shortest Path Without Heuristics for Google’s Routing and Logistics](business-cases/b9.md)
+- [Persistent Segment Trees — Efficient Historical Traffic Data Storage for Google Maps](business-cases/b10.md)
+- [Urn Model + Probability — Spotting Anomalous Reviewer Behavior](business-cases/b11.md)
+- [Mo’s Algorithm — Fast Range-Based Review Anomaly Detection](business-cases/b12.md)
+- [Catalan Numbers — Grammar-Based Fake Review Detection in Google Reviews](business-cases/b13.md)
+- [PageRank — Ranking Web Pages via Link Graph Analysis](business-cases/b15.md)
+- [Personalized Content Feed using DFS in Google's Ecosystem](business-cases/b16.md)
+- [Bitmask Dynamic Programming (DP) for Google Search and Ads Personalization](business-cases/b17.md)
+- [Permutation of Top-N Google Recommendations using Johnson–Trotter](business-cases/b18.md)
+- [Real-Time Path Optimization Using Dijkstra’s Algorithm in Google Platforms](business-cases/b19.md)
+  
 
