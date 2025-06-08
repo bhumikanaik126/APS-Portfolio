@@ -7,7 +7,7 @@ _A stride towards enhanced Google service management._
 ### 📚 Course Information
 
 - **Course Name:** Algorithmic Problem Solving  
-- **Course Code:** 23ECSE309  
+- **Course Code:** 24ECSE309  
 - **Instructor:** Prakash Hegade  
 - **University:** KLE Technological University, Hubballi  
 - **Name:** Bhumika Naik  
